@@ -26,10 +26,10 @@ img{
 }
 
 .hero-image{
-    height: 800px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-image: url(./images/F92DgTKO7KvsQBokYTSLkw.jpg);
 }
 
@@ -79,6 +79,15 @@ h1{
 
 .parallax-container {
   background-image: url(./images/Coat_of_Arms_of_Stavropol_\(2021\).jpeg);
+  height: 50vh; /* Высота на весь экран */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container1 {
+  background-image: url(./images/index3top.jpg);
   height: 50vh; /* Высота на весь экран */
   background-attachment: fixed;
   background-position: center;
