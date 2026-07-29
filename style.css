@@ -103,3 +103,12 @@ h1{
     margin: auto;
     margin-top: 40px;
 }
+
+.parallax-container2 {
+background-image: url(./images/Untitled.png);
+height: 50vh; /* Высота на весь экран */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
