@@ -112,3 +112,30 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.button{
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.button:hover{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(103, 103, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрирует кнопки по горизонтали */
+    gap: 20px;               /* Делает красивые отступы между кнопками */
+    margin-top: 40px;        /* Отступ от картинки сверху */
+    margin-bottom: 40px;     /* Отступ снизу страницы */
+}
