@@ -139,3 +139,32 @@ background-size: cover;
     margin-top: 40px;        /* Отступ от картинки сверху */
     margin-bottom: 40px;     /* Отступ снизу страницы */
 }
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(39, 174, 96); /* Темно-синий цвет панели */
+  padding: 15px 20px;
+  position: fixed; /* Панель остается вверху при скролле */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgb(39, 174, 96);
+  gap: 20px;
+}
+
+.logo-picture {
+    background-image: url(images/logo.jpg);
+}
+
+/* Стили логотипа */
+.logo {
+    background-image: url(images/logo.jpg);
+}
+
+hr {
+    border: none;               /* Убираем стандартную рамку */
+  border-top: 30px solid rgb(39, 174, 96); /* Задаем толщину (2px), тип (solid — сплошная) и цвет (#000 — черный) */
+  margin: 20px 0;   
+}
